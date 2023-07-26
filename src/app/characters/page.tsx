@@ -56,7 +56,7 @@ export default async function Characters({
 		<main className=" mx-auto max-w-6xl px-5">
 			<Searchbar />
 			<Filter />
-			<div className="grid grid-cols-2 gap-8 sm:grid-cols-4 ">
+			<div className="grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-8 ">
 				{data.characters.results.map((character: Character) => (
 					<Card character={character} key={character.id} />
 				))}

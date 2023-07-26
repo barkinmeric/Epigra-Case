@@ -13,7 +13,7 @@ const Filter = () => {
 
 	return (
 		<div className="m-8 flex justify-center">
-			<div className="mx-2 flex w-32 flex-col text-center">
+			<div className="mx-2 flex w-16 flex-col text-center sm:w-32">
 				<p>Status</p>
 				<select
 					name="status"
@@ -43,7 +43,7 @@ const Filter = () => {
 				</select>
 			</div>
 
-			<div className="mx-2 flex w-32 flex-col text-center">
+			<div className="mx-2 flex w-16 flex-col text-center sm:w-32">
 				<p>Species</p>
 				<select
 					name="species"
@@ -81,7 +81,7 @@ const Filter = () => {
 				</select>
 			</div>
 
-			<div className="mx-2 flex w-32 flex-col text-center">
+			<div className="mx-2 flex w-16 flex-col text-center sm:w-32">
 				<p>Gender</p>
 				<select
 					name="gender"
